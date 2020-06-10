@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta name="REVERA" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS FontAwesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">;
-
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Revera</title>
   </head>
   
@@ -102,43 +103,131 @@
 
 
     <!-- SECTION ABAIXO DO SLIDEBOX - COM WIDGETS -->
-    <div id = 'widgets' class="d-flex justify-content-center">
-        <div class="d-flex flex-column justify-content-center" >
-            <img src="#" alt="imagem">  
-            <div class="flex-caption">
-                <h1 class="text-center" >Web design</h1>
-                <p class="text-center">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
-            </div>
+    <div id = 'widgets' class="d-flex justify-content-center p-5">
+        <div class="d-flex flex-column justify-content-center align-items-center m-3" >
+            <i class="fa fa-glass fa-3x mb-2 " aria-hidden="true"></i>
+            <h1 class="text-center" >Web design</h1>
+            <p class="text-center">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius</p>
         </div>
-        <div class="d-flex flex-column justify-content-center">
-            <img src="#" alt="imagem">    
+        <div class="d-flex flex-column justify-content-center align-items-center m-3"> 
+            <i class="fa fa-star fa-3x mb-2" aria-hidden="true"></i> 
             <h1 class="text-center">Web development</h1>
             <p class="text-center">Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nspendisse at erat luctus.</p>
         </div>
-        <div class="d-flex flex-column justify-content-center">
-            <img src="#" alt="imagem">       
+        <div class="d-flex flex-column justify-content-center align-items-center m-3"> 
+            <i class="fa fa-heart fa-3x mb-2" aria-hidden="true"></i> 
             <h1 class="text-center">User interface</h1>
             <p class="text-center">Cras aliquet venenatis porttitor. Donec rutrum sapien et sapien dignissim, eu dapibus mi molestie. Suspendisse dictum convallis quam et sodales. Praesent non enim et magna congue gravida.</p>
         </div>
     </div>
 
     <!-- SECTION: PROJECTS E ARTICLES -->
-    <div id = 'content'>
+    <div id = 'content' class="m-5">
         <!-- Latest Projects -->
-        <div>
-
+        <div class="m-4">
+          <div>
+            <h4>LATEST PROJECTS</h4>
+          </div>
+          <div>
+            <p class="text-secondary"> FEW OF THE LATEST PORTFOLIO ITEMS </p>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex">
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/project-1.jpg" alt="img" class="rounded w-100">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/project-2.jpg" alt="img" class="rounded w-100">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/project-3.jpg" alt="img" class="rounded w-100">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/project-4.jpg" alt="img" class="rounded w-100">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
         </div>
 
+        <!-- LATEST ARTICLES -->
+        <div class="m-4">
+          <div>
+            <h4>LATEST ARTICLES</h4>
+          </div>
+          <div>
+            <p class="text-secondary"> LATEST POSTS FROM THE BLOG </p>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex">
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/slider-1.jpg" alt="img" class="rounded w-100">
+            <p class="font-weight-bold small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, iusto?</p>
+            <p class="small">POSTED ON <span class="text-danger"> AUGUST 19, 2020</span>, BY ADMIN</p>
+            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit dolorum corrupti cupiditate temporibus labore voluptatibus omnis veniam magni veritatis illo a, asperiores molestiae sed sit voluptatum eos modi maiores delectus?</p>
+
+          </div>
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/slider-2.jpg" alt="img" class="rounded w-100">
+            <p class="font-weight-bold small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, iusto?</p>
+            <p class="small">POSTED ON <span class="text-danger"> AUGUST 19, 2020</span>, BY ADMIN</p>
+            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit dolorum corrupti cupiditate temporibus labore voluptatibus omnis veniam magni veritatis illo a, asperiores molestiae sed sit voluptatum eos modi maiores delectus?</p>
+
+          </div>
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/slider-3.jpg" alt="img" class="rounded w-100">
+            <p class="font-weight-bold small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, iusto?</p>
+            <p class="small">POSTED ON <span class="text-danger"> AUGUST 19, 2020</span>, BY ADMIN</p>
+            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit dolorum corrupti cupiditate temporibus labore voluptatibus omnis veniam magni veritatis illo a, asperiores molestiae sed sit voluptatum eos modi maiores delectus?</p>
+
+          </div>
+          <div class="d-flex flex-column align-items-center m-4">
+            <img src="./img/slider-4.jpg" alt="img" class="rounded w-100">
+            <p class="font-weight-bold small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, iusto?</p>
+            <p class="small">POSTED ON <span class="text-danger"> AUGUST 19, 2020</span>, BY ADMIN</p>
+            <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit dolorum corrupti cupiditate temporibus labore voluptatibus omnis veniam magni veritatis illo a, asperiores molestiae sed sit voluptatum eos modi maiores delectus?</p>
+
+          </div>
+        </div>
     </div>
 
     <!-- BOTTOM CINZA -->
-    <div id = 'bottom'>
+    <div id = 'bottom' class="pr-5 pt-3 pl-5 d-flex justify-content-space-around text-light">
+      <div class="m-2 col-sm">
+        <p>REVERA</p>
+        <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fugiat placeat libero possimus mollitia quo. Consequatur totam vero fuga officia, minus, error deserunt est dolore numquam eaque hic nesciunt tempora?Enim, adipisci. Explicabo maxime necessitatibus quasi facilis aliquid voluptatum hic nobis minima voluptas nulla fugiat adipisci molestiae similique atque odio fuga sequi dicta, ipsam exercitationem accusantium eligendi veritatis ducimus consectetur?</p>
+      </div>
+      <div class="m-2 col-sm">
+        <p>META</p>
+        <p class="small bottom-item">Log in</p>
+        <p class="small bottom-item">Entries</p>
+        <p class="small bottom-item">Comments</p>
+        <p class="small bottom-item">WordPress.org</p>
 
+      </div>
+      <div class="m-2 col-sm">
+        <p>ARCHIVES</p>
+        <p class="small bottom-item">August 2013</p>
+      </div>
+      <div class="m-2 col-sm">
+        <p>RECENT POSTS</p>
+        <p class="small bottom-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corrupti doloremque dolorum fugit.</p>
+        <p class="small bottom-item">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="small bottom-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="small bottom-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum corporis ipsa quidem!</p>
+        <p class="small bottom-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet?</p>
+
+
+      </div>
     </div>
 
     <!-- FOOTER -->
-    <div id = 'footer'>
-        
+    <div id = 'footer' class="pl-5 pt-3 pb-1">
+        <p class="small">Copyright © 2018 revera - Just another demo Sites site.</p>
+        <p class="small">Revera Theme</p>
     </div>
 
     <!-- Optional JavaScript -->
